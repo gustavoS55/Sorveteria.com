@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+   background-color: rgb(0, 0, 0);
+}
+
+
+section {
+    margin: 0 auto;   
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: 0.1rem solid  rgba(255, 255, 255, 0.3);
+
+}
+
+.header section{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: black;
+    justify-content: center;
+}
+
+.navbar a{
+
+    margin: 0 0.2rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.btn {
+    background-color: chocolate;
+    color: #fff;
+    padding: 0.9rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.home-container {
+    background: url(./imagens/baunilha-soft-serve-ice-cream-cone-isolado-no-fundo-preto-com-espaco-livre-para-texto-e-design_76000-1550.avif)
+    no-repeat;
+    height: 100vh;
+    background-position: center;
+  
+
+}
+
+.home-container section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 60rem;
+
+}
+
+.content h3{
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+}
+
+.content p{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.4;
+    padding: 1rem 0;
+}
+
+.title {
+    font-size: 2rem;
+    color: chocolate;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+
+
+}
+
+.title span{
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.sobre .row {
+    display: flex;
+    background: rgba(148, 148, 148, 0.342);
+    gap: 1rem;
+    align-items: center;
+}
+
+.sobre .row .content{
+    padding: 1rem;
+}
+
+.sobre .row .content h3{
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+
+.sobre .row .content p{
+    font-size: 1.5rem; 
+    color: #fff; 
+    padding: 1rem 0;
+    line-height: 1;
+    
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    gap: 1rem;
+    
+}
+
+.menu .box-container .box {
+    text-align: center;
+    border:  0.2rem solid  rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    
+}
+
+.menu .box-container .box h3{
+    color: #fff;
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box:hover{
+    background-color: #fff;
+}
+
+
+.menu .box-container .box .price {
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5 0;
+    font-weight: 500;
+}
+
+.menu .box-container .box span {
+    font-size: 0.5;
+    text-decoration: line-through;
+    font-weight: 100;
+}
+
+.menu .box-container .box:hover>* {
+    color: black;
+}
+
+.review .box-container .box{
+    text-align: center;
+    border:  0.2rem solid  rgba(255, 255, 255, 0.3);
+    padding: 1rem 0;
+}
+
+.review .box-container .box p{
+    font-size: 1rem;
+    color: #fff;
+    padding: 1rem 0;
+    line-height: 1;
+    font-weight: 100;
+}
+.review .box-container .box h3{
+    color: #fff;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+ 
+
+.review .box-container .box .redondo {
+    border-radius: 50%;
+
+}
+
+
+.endereco{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.endereco iframe{
+    width: 20rem;
+    height: 20rem;
+}
+
+.footer{
+    text-align: center;
+    background: rgb(48, 46, 46);
+}
+
+.footer .shere {
+    padding: 1rem 0;
+}
+
+.footer .share img{
+    margin: 0.3rem ;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.footer .share img:hover{
+    background-color: rgb(247, 182, 136);
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+
